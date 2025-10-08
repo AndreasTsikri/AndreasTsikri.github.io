@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+     <!--My CSS-->
+     <link href="./styles.css" rel="stylesheet">
+
+    <title>Projects page</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html#About">Intro</a></li>
+        <li><a href="./index.html#Contact">Contact</a></li>
+        <li><a href="./hobbies.html">Hobbies</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./bookRecommendations.html">Book Recommendations!</a></li>
+        <li><button type="button" class="background-button">Change Color!</button></li>
+      </ul>
+  </nav>
+
+
+    <h1>Here they are my projects!</h1>
+    <p>
+      Most of projects have a title, a small description and the pdf viewer that you can see the hole project.
+      Most of pdfs has a theory and a code implementation written on local jupyter-notebook and exported as pdf.
+      All projects were developed on linux machine, see <a href="https://lubuntu.net/">Lubuntu</a> for a lightweight
+      Linux distro!
+      Most of the theory is in greek language! <a href="./index.html#Contact">Contact me</a> for the translation!
+    </p>
+    <p>
+        At the top i have <a href="#Completed-projects">completed projects</a> that i did as freelancer or as
+        side projects and they are... completed.!!
+    </p>
+     <p>
+        At the bottom there are some <a href="#Future-projects">future projects</a> that i have in my mind on doing in the near future! Feel free to contact
+        me if you are interested on doing something together!
+    </p>
+
+    <div id = "Completed-projects">
+      <h2>Completed projects</h2>
+      <ul>
+        <li id = "project-list">Diploma Thesis - Wind turbine blade design with noise reduction goal, using metaheuristic optimization algorithm PSO</li>
+          <p>
+            In order to reduce the noise of turbine multiple techniques was developed in recent years. Here we tried to
+            reduce the SPL(dB) aero-acoustic noise of 2 prototype wind turbines  by using a noise model developed by nasa coupled
+            with metaheuristic optimization algorithm PSO. The flow characteristic was calculated by using a in-house
+            solver (FOIL2W) and the outputs was fed into a noise model. Based on this output the optimization was took place.
+            Finally, we replaced the previous computational-costly procedure with a Machine Learning model (deep neural
+             network) and made some more optimizations and test PSO parameters.
+          </p>
+          <!--
+          <div class="pdfs">
+            <iframe src="/pdfs/diploma_thesis_final.pdf" ></iframe>
+          </div>
+          -->
+
+        <li id = "project-list">Football match prediction using kaggle dataset</li>
+          <p>
+            Using <a href="https://www.kaggle.com/datasets/hugomathien/soccer">this kaggle dataset</a> i visuallized the dataset then
+            adter making some feature engineering trying to train some models, a simple Linear Neural Network and 2 MLP in order
+            to predict the football match results based on bet-companies odds and football match characteristics. Finally, i implemented
+            a clustering algorithm K-means. For more details check the pdfs below
+          </p>
+          <div class="pdfs">
+            <iframe src="/pdfs/Linear_Neural_Network_&_MLP.pdf" ></iframe>
+            <iframe src="/pdfs/MultiLayer_Perceptron_Final.pdf" ></iframe>
+            <iframe src="/pdfs/kmeans_clustering.pdf" ></iframe>
+          </div>
+        <li id = "project-list">Assignment in Robotics using matlab</li>
+          <p>
+            I Solved the straight kinematic problem of a 6 DOF robot. Path planning was also implemented
+            using polynomials based on path planning theory
+          </p>
+
+      </ul>
+  </div>
+  <div id = "Future-projects">
+    <h2>Future Projects</h2>
+    <ul>
+      <li id = "project-list">Create a simple blog that users can add links and pdfs</li>
+      <!--
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      -->
+      <li id = "project-list">Create a live server that is accessible from internet</li>
+          <!--
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      -->
+        <li id = "project-list">Small scale Self-adjusting solar panel with arduino</li>
+            <!--
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      -->
+        <li id = "project-list">ML model for predicting the weather with arduino</li>
+              <!--
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      -->
+         <li id = "project-list">Self-driving car with arduino</li>
+              <!--
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      -->
+          <li id = "project-list">raspberry pi ethereum node (or/and bitcoin node)</li>
+              <!--
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum
+      </p>
+      -->
+
+  </div>
+
+  <script>
+    const btn = document.querySelector(".background-button");
+    const p = document.querySelectorAll("p");
+    const ul = document.querySelectorAll("ul");
+
+    function changeBackGround(){
+       /*
+        p.forEach((el) => {
+            el.style["background-color"] = ((el.style["background-color"] == "#2F4F4F") ? "#e7e7e7":"#2F4F4F" );
+            el.style.color= ((el.style.color == "#FF1493") ? "black":"#FF1493" );
+        })
+        */
+        document.body.style.color = ((document.body.style.color == "red") ? "black" : "red" );
+        document.body.style["background-color"] = (document.body.style["background-color"] === "lightgreen" ? "#e7e7e7" : "lightgreen");
+
+       }
+
+
+    btn.addEventListener("click",(e)=>{
+
+        changeBackGround();
+        e.target.style["background-color"] = (e.target.style["background-color"] == "red" ? '#4CAF50' : "red" );
+
+    })
+
+</script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

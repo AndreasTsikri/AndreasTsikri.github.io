@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--My CSS-->
+    <link href="./styles.css" rel="stylesheet">
+
+    <title>HelloWorld page!</title>
+  </head>
+  <body>
+
+    <nav class="menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html#About">Intro</a></li>
+          <li><a href="./index.html#Contact">Contact</a></li>
+          <li><a href="./hobbies.html">Hobbies</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./bookRecommendations.html">Book Recommendations!</a></li>
+          <li><button type="button" class="background-button">Change Color!</button></li>
+        </ul>
+
+    </nav>
+
+
+    <h1 >Welcome to my Homepage!!</h1>
+    <div id="Intro-image">
+        <img class="main" src="./images/transhuman.jpeg" alt="Human as a machine!">
+    </div>
+
+
+
+    <h2 id = "About">Intro</h2>
+    <div class = "About-class">
+        <!-- Why i built site -->
+        <p>My name is Andreas and this is my static website. The site was completely developed on
+            basic HTML, CSS and vanilla JS. For CSS, some <a href="https://getbootstrap.com/">bootstrap</a> components
+            was used. I built this site for 3 reasons:
+        </p>
+        <ul>
+            <li>
+                &#127891; To demonstrate my knowledge on simple web design, post my previous projects on different technical fields (outside from github!) and some more personal info. In general, to have a more concrete resume page!
+            </li>
+            <li>&#9749; To have some fun in the proccess of building a well-formed, more detail-specific resume!</li>
+            <li>&#127919; To complete the week-8 assignment on <a href="https://cs50.harvard.edu/x/2022/">CS50x-2022</a>  Harvard online open course (Intro to Computer Science)!</li>
+        </ul>
+        <!-- Details about me -->
+        <p>I am a graduate Mechanical Engineer specialized in energy sector. I used to code before getting into the university.
+            I made more complex projects at university, as NTUA is known for his wide spectrum of knowledge that brings to the table.
+            The programs were more orientated towards solution of comlex mathematical equations. Some of them were more basic like sum of Series.
+            We had also a UNIX course at first year. The main language that we used on the bigger part of coding assignments was FORTRAN, a little bit old but fast laguage for computational tasks.
+            I fell in love with computer science at 2017. I love a lot of domains and concepts about machine learning, Turing machines, automata, <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">game of life</a>, open-source etc.
+             As i dove deeper into the field, the more i got in love with computers and computer science. My final diploma thesis
+            had a tone of coding in multiple languages and i also inserted some knowledge that i self-taught to myself from ML field. More on the projects on my project page!        </p>
+
+        <p>Looking forward on working as a Data Scientist and improving my CS and development skills!</p>
+
+        <p>As final thoughts, CS connects the way of life that i want to follow (constant problem solving, communication and cooperation , do-things-on-your-own-way,
+            imagination, creativity) along with the elegance of a very interesting and complex scientific field!
+        </p>
+    </div>
+
+    <!--Educ and certif-->
+    <div>
+        <h2>Education and Certifications</h2>
+        <ul>
+            <li>Mechanical Engineer on NTUA (National Technical University of Athens), Energy Engineer</li>
+            <li>Kaggle <b>Data Visualization</b> certificate </li>
+            <li>Kaggle <b>Feature Engineering</b> certificate</a> </li>
+            <li>Kaggle <b>Data Cleaning</b> cerificate</li>
+            <li>freeCodeCamp certification on <b>Data Analysis with python</b></li>
+            <li>freeCodeCamp certification on <b>Algorithms & Data Structures with JavaScript</b></li>
+        </ul>
+    </div>
+
+    <!--Skills-->
+    <div>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages</li>
+            <p class="skills"><b>Python, SQL, MATLAB, C, JavaScript, HTML-CSS, FORTRAN</b></p>
+            <li>Data Bases</li>
+            <p class="skills"><b>MySQL, SQLite</b></p>
+            <li>Specific python libraries and frameworks</li>
+            <p class="skills"><b>pandas, NumPy , Flask, matplotlib, seaborn, scikit-learn,
+                SciPy, PySwarms, PyMC3, PyTorch, random, math, multiprocessing, Tkinter</b></p>
+            <li>Other Technologies</li>
+            <p class="skills"><b>Git, Linux CLI, bash scripting, Docker</b></p>
+        </ul>
+    </div>
+    <!--contact me-->
+    <div class = "Contact-class"></div>
+    <h2 id ="Contact">Contact</h2>
+    <p >Feel free to contact me on:</p>
+    <ul>
+        <li><a href="mailto:andreasTs.jobs@outlook.com">My email</a> ! make the name more professional</li>
+        <li><a href="tel:699-XXXX-XXX">phone number</a>: here put new Vodafone number!</li>
+
+    </ul>
+</div>
+
+
+<footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+</footer>
+
+<script>
+    const btn = document.querySelector(".background-button");
+    const p = document.querySelectorAll("p");
+    const ul = document.querySelectorAll("ul");
+
+    function changeBackGround(){
+       /*
+        p.forEach((el) => {
+            el.style["background-color"] = ((el.style["background-color"] == "#2F4F4F") ? "#e7e7e7":"#2F4F4F" );
+            el.style.color= ((el.style.color == "#FF1493") ? "black":"#FF1493" );
+        })
+        */
+        document.body.style.color = ((document.body.style.color == "red") ? "black" : "red" );
+        document.body.style["background-color"] = (document.body.style["background-color"] === "lightgreen" ? "#e7e7e7" : "lightgreen");
+
+       }
+
+
+    btn.addEventListener("click",(e)=>{
+
+        changeBackGround();
+        e.target.style["background-color"] = (e.target.style["background-color"] == "red" ? '#4CAF50' : "red" );
+
+    })
+
+</script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

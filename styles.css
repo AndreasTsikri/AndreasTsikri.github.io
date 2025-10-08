@@ -1,0 +1,163 @@
+body{
+  background-color: #e7e7e7;
+  color: black;
+}
+h1{
+    text-align : center;
+}
+
+p{
+  text-indent:10px;
+  display: block;
+  margin-right: 50px;
+  margin-left: 5px;
+
+  /*background-color: #FFE4C4;*/
+  background-color:#e7e7e7;
+
+}
+ul{
+  /*background-color: #FFE4C4;*/
+  background-color:#e7e7e7;
+}
+
+#project-list{
+    font-weight: bold;
+}
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+ nav li {
+    float: left;
+  }
+
+ nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 6px;
+    text-decoration: none;
+  }
+
+  #Intro-image{
+    text-align : center;
+    background-color: #333;
+  }
+
+  img.main{
+    max-width: 100%;
+    /*height: auto;*/
+
+    width:500px;
+    height:400px;
+  }
+
+img.hobbies{
+    width:350px;
+    height:250px;
+
+  }
+
+
+img.book-recommendations{
+    width:350px;
+    height:250px;
+  }
+
+#book-recommendations-image{
+  background:#D2691E;
+}
+
+
+  div.Cryptos {
+    /*width: 300px;
+    padding: 50px;
+    margin: 20px;
+    */
+    border: 8px solid yellow;
+      text-align:center;
+
+      margin-left: 40px;
+      margin-right:40px;
+
+  }
+  div.CS {
+    /*width: 300px;
+    padding: 50px;
+    margin: 20px;
+    */
+    border: 8px solid #ADD8E6;
+    text-align:center;
+
+    margin-left: 40px;
+    margin-right:40px;
+
+  }
+
+  div.ML{
+    border: 8px solid #708090;
+    text-align:center;
+
+    margin-left: 40px;
+    margin-right:40px;
+  }
+
+  div.Money-and-Politics{
+    border: 8px solid #FA8072;
+    text-align:center;
+
+    margin-left: 40px;
+    margin-right:40px;
+  }
+
+  div.Personal-development{
+    border: 8px solid #191970;
+    text-align:center;
+
+    margin-left: 40px;
+    margin-right:40px;
+  }
+
+/*iframe{
+
+  margin: 0 auto;
+
+  width=500";
+  height=500px;
+}*/
+
+/*The two elements below is used to center the iframe(pdfs) here!!*/
+/*---------------------------------------*/
+div.pdfs{
+  display:block;
+  text-align:center;
+
+}
+
+iframe{
+  width: 500px;
+  height: 500px;
+}
+/*---------------------------------------*/
+
+.background-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 16px;
+}
